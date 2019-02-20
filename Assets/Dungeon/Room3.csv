@@ -1,0 +1,14 @@
+Type,x,y,width,height,Destination,Direction,State
+Collider,96,800,32,32,,,
+Collider,96,928,64,32,,,
+Collider,224,864,64,32,,,
+Collider,352,800,64,32,,,
+Collider,352,928,64,32,,,
+Collider,32,736,448,32,,,
+Collider,32,768,32,224,,,
+Collider,448,768,32,224,,,
+Collider,32,992,448,32,,,
+SecretBlock,128,800,32,32,,Down,
+Door,448,848,64,64,Room1,Right,Open
+Door,224,704,64,64,Room4,Up,Closed
+Skeleton,128,864,32,32,,,

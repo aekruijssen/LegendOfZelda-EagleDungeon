@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="48" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="164">
+ <tileset firstgid="1" source="DungeonTiles.tsx"/>
+ <layer id="2" name="Tiles" width="48" height="33" locked="1">
+  <data encoding="csv">
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
+17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+33,34,148,148,148,148,148,148,148,148,148,148,148,148,35,36,33,34,148,148,148,148,148,148,148,130,130,130,130,130,35,36,33,34,148,148,148,148,148,148,148,148,148,148,148,148,35,36,
+37,38,148,149,149,149,148,148,148,148,149,149,149,148,39,40,37,38,148,148,148,148,148,148,148,148,148,130,130,130,39,40,37,38,148,130,130,130,130,130,130,130,130,130,130,148,39,40,
+41,42,148,149,148,148,148,148,148,148,148,148,149,148,43,44,41,42,148,148,148,148,148,148,148,148,148,148,130,130,43,44,41,42,148,130,148,148,146,148,148,147,148,148,130,148,43,44,
+45,46,148,149,148,149,149,149,149,149,149,148,149,148,47,48,45,46,148,148,148,148,148,148,148,148,148,148,148,148,47,48,45,46,148,130,148,146,148,148,148,148,147,148,130,148,47,48,
+49,50,148,149,148,148,148,148,148,148,148,148,149,148,51,52,49,50,148,148,148,148,148,148,148,148,148,148,130,130,51,52,49,50,148,130,148,148,148,148,148,148,148,148,130,148,51,52,
+53,54,148,149,149,149,148,148,148,148,149,149,149,148,55,56,53,54,148,148,148,148,148,148,148,148,148,130,130,130,55,56,53,54,148,130,130,130,130,148,148,130,130,130,130,148,55,56,
+57,58,148,148,148,148,148,148,148,148,148,148,148,148,59,60,57,58,148,148,148,148,148,148,148,130,130,130,130,130,59,60,57,58,148,148,148,148,148,148,148,148,148,148,148,148,59,60,
+61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,
+77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+33,34,149,149,149,149,149,148,148,149,149,149,149,149,35,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+37,38,149,148,148,148,149,148,148,148,148,149,148,149,39,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+41,42,149,148,149,148,149,148,149,149,148,149,148,149,43,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+45,46,148,148,149,148,149,148,148,149,148,149,148,148,47,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+49,50,149,148,149,148,149,149,148,149,148,149,148,149,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+53,54,149,148,149,148,148,148,148,149,148,148,148,149,55,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+57,58,149,149,149,149,149,148,148,149,149,149,149,149,59,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
+17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+33,34,148,148,148,148,148,148,148,148,148,148,148,148,35,36,33,34,148,148,148,148,148,148,148,148,148,148,148,148,35,36,33,34,148,148,148,148,148,148,148,148,148,148,148,148,35,36,
+37,38,148,130,148,148,148,148,148,148,148,130,130,148,39,40,37,38,148,146,148,148,146,148,148,147,148,147,148,148,39,40,37,38,148,148,148,148,148,148,148,148,148,148,148,148,39,40,
+41,42,148,148,148,148,148,148,148,148,148,148,148,148,43,44,41,42,148,148,148,148,148,148,148,148,148,148,148,148,43,44,41,42,148,148,130,130,148,148,148,148,130,130,148,148,43,44,
+45,46,148,148,148,148,148,130,130,148,148,148,148,148,47,48,45,46,148,146,148,148,146,148,148,147,148,148,148,148,47,48,45,46,148,148,130,130,148,148,148,148,130,130,148,148,47,48,
+49,50,148,148,148,148,148,148,148,148,148,148,148,148,51,52,49,50,148,148,148,148,148,148,148,148,148,148,148,148,51,52,49,50,148,148,130,130,148,148,148,148,130,130,148,148,51,52,
+53,54,148,130,130,148,148,148,148,148,148,130,130,148,55,56,53,54,148,146,148,148,146,148,148,147,148,147,148,148,55,56,53,54,148,148,148,148,148,148,148,148,148,148,148,148,55,56,
+57,58,148,148,148,148,148,148,148,148,148,148,148,148,59,60,57,58,148,148,148,148,148,148,148,148,148,148,148,148,59,60,57,58,148,148,148,148,148,148,148,148,148,148,148,148,59,60,
+61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,
+77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92
+</data>
+ </layer>
+ <objectgroup id="6" name="Room1" locked="1">
+  <object id="31" type="Collider" x="544" y="736" width="448" height="32"/>
+  <object id="36" type="Collider" x="544" y="992" width="448" height="32"/>
+  <object id="37" type="Collider" x="960" y="768" width="32" height="224"/>
+  <object id="38" type="Collider" x="544" y="768" width="32" height="224"/>
+  <object id="39" type="Collider" x="608" y="800" width="32" height="32"/>
+  <object id="40" type="Collider" x="608" y="864" width="32" height="32"/>
+  <object id="41" type="Collider" x="608" y="928" width="32" height="32"/>
+  <object id="42" type="Collider" x="704" y="864" width="32" height="32"/>
+  <object id="43" type="Collider" x="704" y="800" width="32" height="32"/>
+  <object id="44" type="Collider" x="704" y="928" width="32" height="32"/>
+  <object id="45" type="Collider" x="800" y="800" width="32" height="32"/>
+  <object id="46" type="Collider" x="800" y="864" width="32" height="32"/>
+  <object id="47" type="Collider" x="800" y="928" width="32" height="32"/>
+  <object id="48" type="Collider" x="864" y="800" width="32" height="32"/>
+  <object id="49" type="Collider" x="864" y="928" width="32" height="32"/>
+  <object id="50" type="SecretBlock" x="864" y="864" width="32" height="32">
+   <properties>
+    <property name="Direction" value="Left"/>
+   </properties>
+  </object>
+  <object id="52" type="Door" x="960" y="848" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room2"/>
+    <property name="Direction" value="Right"/>
+    <property name="State" value="Closed"/>
+   </properties>
+  </object>
+  <object id="53" type="Door" x="512" y="848" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room3"/>
+    <property name="Direction" value="Left"/>
+    <property name="State" value="Locked"/>
+   </properties>
+  </object>
+  <object id="160" type="Player" x="768" y="960"/>
+ </objectgroup>
+ <objectgroup id="7" name="Room2" locked="1">
+  <object id="56" type="Collider" x="1152" y="832" width="64" height="96"/>
+  <object id="57" type="Collider" x="1344" y="832" width="64" height="96"/>
+  <object id="58" type="Collider" x="1056" y="736" width="448" height="32"/>
+  <object id="59" type="Collider" x="1056" y="992" width="448" height="32"/>
+  <object id="60" type="Collider" x="1472" y="768" width="32" height="224"/>
+  <object id="61" type="Collider" x="1056" y="768" width="32" height="224"/>
+  <object id="62" type="Door" x="1024" y="848" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room1"/>
+    <property name="Direction" value="Left"/>
+    <property name="State" value="Open"/>
+   </properties>
+  </object>
+  <object id="63" type="Bat" x="1216" y="768" width="32" height="32"/>
+  <object id="64" type="Bat" x="1216" y="864" width="32" height="32"/>
+  <object id="65" type="Bat" x="1344" y="800" width="32" height="32"/>
+  <object id="66" type="Bat" x="1408" y="864" width="32" height="32"/>
+  <object id="67" type="Key" x="1440" y="768" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="8" name="Room3" locked="1">
+  <object id="68" type="Collider" x="96" y="800" width="32" height="32"/>
+  <object id="69" type="Collider" x="96" y="928" width="64" height="32"/>
+  <object id="70" type="Collider" x="224" y="864" width="64" height="32"/>
+  <object id="71" type="Collider" x="352" y="800" width="64" height="32"/>
+  <object id="72" type="Collider" x="352" y="928" width="64" height="32"/>
+  <object id="73" type="Collider" x="32" y="736" width="448" height="32"/>
+  <object id="74" type="Collider" x="32" y="768" width="32" height="224"/>
+  <object id="75" type="Collider" x="448" y="768" width="32" height="224"/>
+  <object id="76" type="Collider" x="32" y="992" width="448" height="32"/>
+  <object id="77" type="SecretBlock" x="128" y="800" width="32" height="32">
+   <properties>
+    <property name="Direction" value="Down"/>
+   </properties>
+  </object>
+  <object id="78" type="Door" x="448" y="848" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room1"/>
+    <property name="Direction" value="Right"/>
+    <property name="State" value="Open"/>
+   </properties>
+  </object>
+  <object id="79" type="Door" x="224" y="704" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room4"/>
+    <property name="Direction" value="Up"/>
+    <property name="State" value="Closed"/>
+   </properties>
+  </object>
+  <object id="110" type="Skeleton" x="128" y="864" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="9" name="Room4" locked="1">
+  <object id="81" type="Collider" x="192" y="384" width="128" height="32"/>
+  <object id="82" type="Collider" x="288" y="416" width="160" height="32"/>
+  <object id="83" type="Collider" x="416" y="448" width="32" height="64"/>
+  <object id="84" type="Collider" x="448" y="512" width="32" height="32"/>
+  <object id="85" type="Collider" x="416" y="544" width="32" height="96"/>
+  <object id="86" type="Collider" x="352" y="448" width="32" height="128"/>
+  <object id="87" type="Collider" x="256" y="480" width="64" height="32"/>
+  <object id="88" type="Collider" x="288" y="512" width="32" height="128"/>
+  <object id="89" type="Collider" x="320" y="608" width="96" height="32"/>
+  <object id="90" type="Collider" x="192" y="544" width="64" height="32"/>
+  <object id="91" type="Collider" x="192" y="416" width="32" height="128"/>
+  <object id="92" type="Collider" x="64" y="416" width="128" height="32"/>
+  <object id="93" type="Collider" x="64" y="448" width="32" height="64"/>
+  <object id="94" type="Collider" x="32" y="512" width="32" height="32"/>
+  <object id="95" type="Collider" x="64" y="544" width="32" height="96"/>
+  <object id="96" type="Collider" x="96" y="608" width="128" height="32"/>
+  <object id="97" type="Collider" x="128" y="480" width="32" height="128"/>
+  <object id="98" type="Collider" x="224" y="640" width="64" height="32"/>
+  <object id="99" type="Key" x="416" y="512" width="32" height="32"/>
+  <object id="104" type="Skeleton" x="96" y="448" width="32" height="32"/>
+  <object id="105" type="Skeleton" x="96" y="544" width="32" height="32"/>
+  <object id="106" type="Skeleton" x="320" y="448" width="32" height="32"/>
+  <object id="107" type="Skeleton" x="384" y="544" width="32" height="32"/>
+  <object id="108" type="Door" x="224" y="640" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room3"/>
+    <property name="Direction" value="Down"/>
+    <property name="State" value="Open"/>
+   </properties>
+  </object>
+  <object id="109" type="Door" x="224" y="352" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room5"/>
+    <property name="Direction" value="Up"/>
+    <property name="State" value="Locked"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="Room5">
+  <object id="111" type="Collider" x="32" y="32" width="448" height="32"/>
+  <object id="114" type="Collider" x="32" y="64" width="32" height="224"/>
+  <object id="115" type="Collider" x="448" y="64" width="32" height="224"/>
+  <object id="116" type="Collider" x="32" y="288" width="448" height="32"/>
+  <object id="117" type="Collider" x="96" y="96" width="32" height="160"/>
+  <object id="118" type="Collider" x="128" y="96" width="64" height="32"/>
+  <object id="119" type="Collider" x="128" y="224" width="64" height="32"/>
+  <object id="120" type="Collider" x="160" y="160" width="192" height="32"/>
+  <object id="123" type="Collider" x="384" y="96" width="32" height="160"/>
+  <object id="124" type="Collider" x="320" y="96" width="64" height="32"/>
+  <object id="125" type="Collider" x="320" y="224" width="64" height="32"/>
+  <object id="126" type="Skeleton" x="192" y="96" width="32" height="32"/>
+  <object id="127" type="Skeleton" x="256" y="96" width="32" height="32"/>
+  <object id="128" type="Skeleton" x="352" y="256" width="32" height="32"/>
+  <object id="129" type="Bat" x="352" y="64" width="32" height="32"/>
+  <object id="130" type="Door" x="224" y="288" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room4"/>
+    <property name="Direction" value="Down"/>
+    <property name="State" value="Open"/>
+   </properties>
+  </object>
+  <object id="131" type="Door" x="448" y="144" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room6"/>
+    <property name="Direction" value="Right"/>
+    <property name="State" value="Locked"/>
+   </properties>
+  </object>
+  <object id="163" type="Key" x="192" y="64" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="11" name="Room6" locked="1">
+  <object id="132" type="Collider" x="544" y="32" width="448" height="32"/>
+  <object id="133" type="Collider" x="544" y="288" width="448" height="32"/>
+  <object id="134" type="Collider" x="960" y="64" width="32" height="224"/>
+  <object id="135" type="Collider" x="544" y="64" width="32" height="224"/>
+  <object id="136" type="Collider" x="864" y="64" width="96" height="64"/>
+  <object id="137" type="Collider" x="800" y="64" width="64" height="32"/>
+  <object id="138" type="Collider" x="896" y="128" width="64" height="32"/>
+  <object id="139" type="Collider" x="896" y="192" width="64" height="32"/>
+  <object id="140" type="Collider" x="864" y="224" width="96" height="64"/>
+  <object id="141" type="Collider" x="800" y="256" width="64" height="32"/>
+  <object id="142" type="Door" x="512" y="144" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room5"/>
+    <property name="Direction" value="Left"/>
+    <property name="State" value="Closed"/>
+   </properties>
+  </object>
+  <object id="143" type="Door" x="960" y="144" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room7"/>
+    <property name="Direction" value="Right"/>
+    <property name="State" value="Closed"/>
+   </properties>
+  </object>
+  <object id="144" type="Boss" x="832" y="160" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="12" name="Room7" locked="1">
+  <object id="145" type="Collider" x="1056" y="32" width="448" height="32"/>
+  <object id="146" type="Collider" x="1472" y="64" width="32" height="224"/>
+  <object id="147" type="Collider" x="1056" y="64" width="32" height="224"/>
+  <object id="148" type="Collider" x="1056" y="288" width="448" height="32"/>
+  <object id="149" type="Collider" x="1120" y="96" width="320" height="32"/>
+  <object id="150" type="Collider" x="1120" y="224" width="128" height="32"/>
+  <object id="151" type="Collider" x="1312" y="224" width="128" height="32"/>
+  <object id="152" type="Collider" x="1408" y="128" width="32" height="96"/>
+  <object id="153" type="Collider" x="1120" y="128" width="32" height="96"/>
+  <object id="154" type="Collider" x="1184" y="160" width="32" height="32"/>
+  <object id="155" type="Collider" x="1216" y="128" width="32" height="32"/>
+  <object id="156" type="Collider" x="1312" y="128" width="32" height="32"/>
+  <object id="157" type="Collider" x="1344" y="160" width="32" height="32"/>
+  <object id="158" type="Triforce" x="1264" y="128" width="32" height="32"/>
+  <object id="159" type="Door" x="1024" y="144" width="64" height="64">
+   <properties>
+    <property name="Destination" value="Room6"/>
+    <property name="Direction" value="Left"/>
+    <property name="State" value="Close"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

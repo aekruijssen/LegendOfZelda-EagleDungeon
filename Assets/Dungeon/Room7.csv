@@ -1,0 +1,16 @@
+Type,x,y,width,height,Destination,Direction,State
+Collider,1056,32,448,32,,,
+Collider,1472,64,32,224,,,
+Collider,1056,64,32,224,,,
+Collider,1056,288,448,32,,,
+Collider,1120,96,320,32,,,
+Collider,1120,224,128,32,,,
+Collider,1312,224,128,32,,,
+Collider,1408,128,32,96,,,
+Collider,1120,128,32,96,,,
+Collider,1184,160,32,32,,,
+Collider,1216,128,32,32,,,
+Collider,1312,128,32,32,,,
+Collider,1344,160,32,32,,,
+Triforce,1264,128,32,32,,,
+Door,1024,144,64,64,Room6,Left,Close

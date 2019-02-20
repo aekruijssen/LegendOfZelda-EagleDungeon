@@ -1,0 +1,13 @@
+Type,x,y,width,height,Destination,Direction,State
+Collider,1152,832,64,96,,,
+Collider,1344,832,64,96,,,
+Collider,1056,736,448,32,,,
+Collider,1056,992,448,32,,,
+Collider,1472,768,32,224,,,
+Collider,1056,768,32,224,,,
+Door,1024,848,64,64,Room1,Left,Open
+Bat,1216,768,32,32,,,
+Bat,1216,864,32,32,,,
+Bat,1344,800,32,32,,,
+Bat,1408,864,32,32,,,
+Key,1440,768,32,32,,,

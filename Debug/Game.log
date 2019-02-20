@@ -1,0 +1,21 @@
+﻿  Game.cpp
+c:\users\adina\kruijssen-adina-itp380-20191\libraries\sdl\include\sdl\sdl_mixer.h(103): warning C4099: 'Mix_Chunk': type name first seen using 'class' now seen using 'struct'
+  c:\users\adina\kruijssen-adina-itp380-20191\libraries\sdl\include\sdl\sdl_mixer.h(103): note: see declaration of 'Mix_Chunk'
+c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(269): warning C4018: '<': signed/unsigned mismatch
+c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(274): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(275): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(239): warning C4101: 'x': unreferenced local variable
+  Game.vcxproj -> C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\Debug\Game.exe
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
+  C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\GLEW\lib\win\x86\glew32.dll
+  1 File(s) copied

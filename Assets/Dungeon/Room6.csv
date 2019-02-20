@@ -1,0 +1,14 @@
+Type,x,y,width,height,Destination,Direction,State
+Collider,544,32,448,32,,,
+Collider,544,288,448,32,,,
+Collider,960,64,32,224,,,
+Collider,544,64,32,224,,,
+Collider,864,64,96,64,,,
+Collider,800,64,64,32,,,
+Collider,896,128,64,32,,,
+Collider,896,192,64,32,,,
+Collider,864,224,96,64,,,
+Collider,800,256,64,32,,,
+Door,512,144,64,64,Room5,Left,Closed
+Door,960,144,64,64,Room7,Right,Closed
+Boss,832,160,32,32,,,
