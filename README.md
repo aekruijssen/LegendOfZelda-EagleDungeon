@@ -1,5 +1,5 @@
 # Legend_Of_Zelda-Eagle_Dungeon
-Recreation of first dungeon in the Legend of Zelda on NESin C++
+Recreation of first dungeon in the Legend of Zelda on NES in C++
 
 <img src="img/loz0.gif" alt="Gameplay0"/>
 
