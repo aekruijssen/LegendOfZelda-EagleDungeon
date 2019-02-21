@@ -79,6 +79,12 @@
     <ClCompile Include="Sword.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triforce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -151,6 +157,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Sword.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triforce.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

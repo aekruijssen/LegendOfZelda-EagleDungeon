@@ -1,10 +1,8 @@
-﻿  Game.cpp
-c:\users\adina\kruijssen-adina-itp380-20191\libraries\sdl\include\sdl\sdl_mixer.h(103): warning C4099: 'Mix_Chunk': type name first seen using 'class' now seen using 'struct'
+﻿  Spawner.cpp
+  Triforce.cpp
+c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.h(60): warning C4099: 'Mix_Chunk': type name first seen using 'struct' now seen using 'class'
   c:\users\adina\kruijssen-adina-itp380-20191\libraries\sdl\include\sdl\sdl_mixer.h(103): note: see declaration of 'Mix_Chunk'
-c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(269): warning C4018: '<': signed/unsigned mismatch
-c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(274): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(275): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\adina\kruijssen-adina-itp380-20191\lab05\game.cpp(239): warning C4101: 'x': unreferenced local variable
+  Generating Code...
   Game.vcxproj -> C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\Debug\Game.exe
   C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libfreetype-6.dll
   C:\Users\adina\kruijssen-adina-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libogg-0.dll

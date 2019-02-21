@@ -13,6 +13,7 @@
 #include "Door.h"
 #include "SecretBlock.h"
 #include "Spawner.h"
+#include "SDL/SDL_mixer.h"
 
 
 Bat::Bat(Game* game)
@@ -35,6 +36,14 @@ Bat::Bat(Game* game)
 	as->SetIsPaused(true);
 
 	ec = new EnemyComponent(this);
+	ec->SetOnTakeDamage([this] {
+		ec->hp -= (ec->amt);
+		//ec->TakeDamage(1);
+		Mix_PlayChannel(-1, mGame->GetSound("Assets/Sounds/EnemyHit.wav"), 0);
+	});
+	ec->SetOnDeath([this] {
+		Mix_PlayChannel(-1, mGame->GetSound("Assets/Sounds/EnemyDie.wav"), 0);
+	});
 
 	speed = 50.0f;
 	lifetime = 0.0f;

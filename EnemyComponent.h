@@ -8,11 +8,16 @@ public:
 	EnemyComponent(class Actor* owner);
 	~EnemyComponent();
 
-	void SetOnCollect(std::function<void()> onCollect);
+	void SetOnTakeDamage(std::function<void()> onDamage);
+	void SetOnDeath(std::function<void()> onDeath);
 	void TakeDamage(int amount);
 
-private:
 	int hp;
+	int amt;
+	int inv;
+
+private:
+
 	int damage;
 	std::function<void()> mOnDeath;
 	std::function<void()> mOnTakeDamage;

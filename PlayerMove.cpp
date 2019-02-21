@@ -94,7 +94,7 @@ void PlayerMove::Update(float deltaTime) {
 							CollisionComponent* swordCol = mSword->cc;
 
 							if (c != nullptr && swordCol != nullptr) {
-								CollSide cs = (c)->GetMinOverlap(swordCol, sPos);
+								CollSide cs = c->GetMinOverlap(swordCol, sPos);
 								if (cs != CollSide::None) {
 									EnemyComponent* e = s->GetComponent<EnemyComponent>();
 									if (e != nullptr) {
@@ -112,7 +112,17 @@ void PlayerMove::Update(float deltaTime) {
 		}
 	}
 	else {
-
+		if (mPlayer->as->GetAnimName() == "AttackLeft") {
+			mPlayer->as->SetAnimation("walkLeft");
+		}
+		else if (mPlayer->as->GetAnimName() == "AttackRight") {
+			mPlayer->as->SetAnimation("walkRight");
+		}if (mPlayer->as->GetAnimName() == "AttackUp") {
+			mPlayer->as->SetAnimation("walkUp");
+		}if (mPlayer->as->GetAnimName() == "AttackDown") {
+			mPlayer->as->SetAnimation("walkDown");
+		}
+		
 		try {
 			if (mPlayer->mGame->mEnemies.size() > 0) {
 				if (mPlayer->GetGame()->mEnemies.at(mPlayer->GetGame()->currRoom).size() > 0) {
@@ -135,7 +145,14 @@ void PlayerMove::Update(float deltaTime) {
 								CollSide cs = (mPlayer->cc)->GetMinOverlap(c, playerPos);
 								if (cs != CollSide::None) {
 									if (invulnerability <= 0.0f) {
-										mPlayer->TakeDamage(1);
+										AnimatedSprite* anim = s->GetComponent<AnimatedSprite>();
+										if (anim->GetAnimName() == "idle" || anim->GetAnimName() == "enraged" ||
+											anim->GetAnimName() == "attack") {
+											mPlayer->TakeDamage(2);
+										}
+										else {
+											mPlayer->TakeDamage(1);
+										}
 										invulnerability = 0.5f;
 
 										Vector2 curPlayerPos = mPlayer->GetPosition();
@@ -329,25 +346,25 @@ void PlayerMove::Update(float deltaTime) {
 					}
 					if (block->mDirection == "Right") {
 						if (mXSpeed > 0) {
-							playerPos.x += 150;
+							playerPos.x += 140;
 							mPlayer->GetGame()->currRoom = block->mDestination;
 						}
 					}
 					else if (block->mDirection == "Left") {
 						if (mXSpeed < 0) {
-							playerPos.x -= 150;
+							playerPos.x -= 140;
 							mPlayer->GetGame()->currRoom = block->mDestination;
 						}
 					}
 					else if (block->mDirection == "Up") {
 						if (mYSpeed < 0) {
-							playerPos.y -= 150;
+							playerPos.y -= 140;
 							mPlayer->GetGame()->currRoom = block->mDestination;
 						}
 					}
 					else if (block->mDirection == "Down") {
-						if (mYSpeed < 0) {
-							playerPos.y += 150;
+						if (mYSpeed > 0) {
+							playerPos.y += 140;
 							mPlayer->GetGame()->currRoom = block->mDestination;
 						}
 					}

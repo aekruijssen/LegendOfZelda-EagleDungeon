@@ -3,6 +3,7 @@
 #include "Game.h"
 #include "SDL/SDL_mixer.h"
 #include "SDL/SDL.h"
+#include "AnimatedSprite.h"
 
 EnemyComponent::EnemyComponent(class Actor* owner)
 	:Component(owner)
@@ -14,6 +15,8 @@ EnemyComponent::EnemyComponent(class Actor* owner)
 
 	hp = 1;
 	damage = 1;
+	amt = 0;
+	inv = 0;
 }
 
 EnemyComponent::~EnemyComponent() {
@@ -21,6 +24,9 @@ EnemyComponent::~EnemyComponent() {
 }
 
 void EnemyComponent::TakeDamage(int amount) {
-	hp -= amount;	if (hp <= 0) {		mOwner->SetState(ActorState::Destroy);		Mix_PlayChannel(-1, mOwner->GetGame()->GetSound("Assets/Sounds/EnemyDie.wav"), 0);		mOnDeath();	}	else {		mOnTakeDamage();	}}void EnemyComponent::SetOnCollect(std::function<void()> onDeath) {
+		amt = amount;	if (hp <= 0) {		mOnDeath();		mOwner->SetState(ActorState::Destroy);	}	else {		mOnTakeDamage();	}}void EnemyComponent::SetOnTakeDamage(std::function<void()> onDamage) {
+	mOnTakeDamage = onDamage;
+}
+void EnemyComponent::SetOnDeath(std::function<void()> onDeath) {
 	mOnDeath = onDeath;
 }

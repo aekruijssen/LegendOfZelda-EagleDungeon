@@ -14,6 +14,7 @@
     <ClInclude Include="Actor.h" />
     <ClInclude Include="AnimatedSprite.h" />
     <ClInclude Include="Bat.h" />
+    <ClInclude Include="Boss.h" />
     <ClInclude Include="Collectible.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="CollisionComponent.h" />
@@ -35,11 +36,13 @@
     <ClInclude Include="SpriteComponent.h" />
     <ClInclude Include="Sword.h" />
     <ClInclude Include="TiledBGComponent.h" />
+    <ClInclude Include="Triforce.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="AnimatedSprite.cpp" />
     <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="Boss.cpp" />
     <ClCompile Include="Collectible.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="CollisionComponent.cpp" />
@@ -61,6 +64,7 @@
     <ClCompile Include="SpriteComponent.cpp" />
     <ClCompile Include="Sword.cpp" />
     <ClCompile Include="TiledBGComponent.cpp" />
+    <ClCompile Include="Triforce.cpp" />
   </ItemGroup>
   <PropertyGroup Condition="'$(WindowsTargetPlatformVersion)'==''">
     <!-- Latest Target Version property -->

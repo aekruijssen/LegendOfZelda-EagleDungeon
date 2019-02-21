@@ -61,7 +61,7 @@ Player::Player(Game* game)
 	as->SetAnimation("walkUp");
 	as->SetIsPaused(true);
 
-	numKeys = 0;
+	numKeys = 5;
 	hp = 10;
 }
 
